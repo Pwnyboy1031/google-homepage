@@ -7,7 +7,16 @@
 
     <style>
 
+    .wFncld {
+            margin-top: 3px;
+            color: #9AA0A6;
+            height: 20px;
+            width: 20px;
+        }
 
+        .gNO89b {
+            padding-top: 18px;
+        }
       
      
       .main{
@@ -23,6 +32,7 @@
             margin-right: auto;
             margin-top: 89px;
             padding-top: 109px;
+            position:relative;
         }
 
         .search {
@@ -36,23 +46,40 @@
             margin: 0 auto;
             width: 582px;
         }
-    
+        
+        .navleft {
+            position: relative;
+            padding-left: 15px;
+            display: inline-block;
+        }
+
+        .navright {
+            position:relative;
+            display: inline-flexbox;
+            justify-content:flex-end;
+            text-align: right;
+        }
+
     </style>
 </head>
 <body>
-    
+    <div class="navleft">About</div>
+    <div class="navleft">Store</div>
+    <div class="navright">Gmail</div>
+    <div class="navright">Images</div>
+
     <div><img class="logo" height="92" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
         </div>
     <div class="search">
-        <div><svg focusable="false" xmlns="http://www.w3.org/2000/svg"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+        <div class="wFncld"><svg focusable="false" xmlns="http://www.w3.org/2000/svg"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
         </div>
-        <div></div>
-        <div></div>
+        
+        
     </div>
-    <div class="nav"></div>
-    <div>
+    
+    <div class="gNO89b">
         <center>
-            <input class="gNO89b" value="Google Search" aria-label="Google Search" name="btnK" type="submit" data-ved="0ahUKEwjlgZywudfpAhUVCM0KHXEUAAwQ4dUDCA0">
+            <input value="Google Search" aria-label="Google Search" name="btnK" type="submit" data-ved="0ahUKEwjlgZywudfpAhUVCM0KHXEUAAwQ4dUDCA0">
             <input value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" id="gbqfbb" name="btnI" type="submit" data-ved="0ahUKEwjlgZywudfpAhUVCM0KHXEUAAwQnRsIDg" style="visibility: inherit;">
         </center>
     </div>
